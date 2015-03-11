@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.storesimple"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+  
+    <!-- 允許使用GPS權限 (GPS功能權限)-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    <!-- 允許使用網路定位權限 (GPS功能權限)-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    
+     <!-- 以下為QRcode掃描功能需加入權限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+  
+    <uses-feature android:name="android.hardware.camera" />
+   
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+        >
+        </activity>
+        
+        <activity 
+            android:name="ForgotpasswordActivity"
+            android:screenOrientation="portrait"
+        >
+        </activity>
+        
+        <activity 
+         	android:name="FunctionActivity"
+        	android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"
+        >
+        </activity>
+        
+        <activity android:name="QRcodeActivity"></activity>
+        
+        <activity 
+            android:name="Loading"
+            android:screenOrientation="portrait"
+        >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="QRcodeScanActivity"></activity>
+        
+        <!-- 需要自行加入 -->
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

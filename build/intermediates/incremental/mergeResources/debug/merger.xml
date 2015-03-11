@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Documents and Settings\Administrator\桌面\Storesimple\res"><file name="loadingin" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\anim\loadingin.xml" qualifiers="" type="anim"/><file name="ic_launcher" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="bottom" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\bottom.jpg" qualifiers="xhdpi-v4" type="drawable"/><file name="forgottitle" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\forgottitle.jpg" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="loadingpage" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\loadingpage.png" qualifiers="xhdpi-v4" type="drawable"/><file name="loginbutoon_bg" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\loginbutoon_bg.jpg" qualifiers="xhdpi-v4" type="drawable"/><file name="logintitle" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\logintitle.jpg" qualifiers="xhdpi-v4" type="drawable"/><file name="login_bg" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\login_bg.png" qualifiers="xhdpi-v4" type="drawable"/><file name="login_icon" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\login_icon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="login_keyword" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\login_keyword.jpg" qualifiers="xhdpi-v4" type="drawable"/><file name="login_member" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\login_member.jpg" qualifiers="xhdpi-v4" type="drawable"/><file name="login_wordbg" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\login_wordbg.jpg" qualifiers="xhdpi-v4" type="drawable"/><file name="memberloginbg" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\memberloginbg.jpg" qualifiers="xhdpi-v4" type="drawable"/><file name="password_bg" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\password_bg.jpg" qualifiers="xhdpi-v4" type="drawable"/><file name="qrcode" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\qrcode.png" qualifiers="xhdpi-v4" type="drawable"/><file name="register_iconbg" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xhdpi\register_iconbg.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_main" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="main" path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\menu\main.xml" qualifiers="" type="menu"/><file path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\values\strings.xml" qualifiers=""><string name="action_settings">Settings</string><string name="LoginTitle">登入帳號</string><string name="ReserveOrder">預定訂單</string><string-array name="orderItem">
+        <item>帳號</item>
+        <item>取餐時間</item>
+        <item>取餐方式</item>
+    </string-array><string name="RegisterAccount">註冊帳號</string><string name="SendfinishHint">輸入完成後會寄新密碼至您的手機</string><string-array name="FinishOrderItem">
+	    <item>帳號</item>
+	    <item>結帳金額</item>
+	    <item>結帳方式</item>
+	</string-array><string name="Dayorder">當日訂單</string><string name="Receiveorder">接收訂單</string><string name="Password">密碼:</string><string name="Determine">確定</string><string name="hello_world">Hello world!</string><string-array name="Foodname">
+	    <item>酸辣麵</item>
+	    <item>牛肉麵</item>
+	    <item>貢丸湯</item>
+	    <item>蝦仁炒飯</item>
+	    <item>牛肉炒飯</item>
+	    <item>義大利麵</item>
+	    <item>滷肉飯</item>
+	    <item>大滷麵</item>
+	    <item>牛肉燴飯</item>
+	    <item>豬肉炒飯</item>
+	</string-array><string name="QRcode">QR</string><string name="Forgotpassword">忘記密碼</string><string name="Account">帳號:</string><string name="FinishOrder">已完成訂單</string><string name="Total">總金額</string><string name="Writeoff">核銷</string><string name="Back">返回</string><string name="Mealnotenough">餐點不足</string><string name="Makefinish">製作完成</string><string name="QRcodeTitle">QR Code 掃描</string><string name="Login">登入</string><string name="Close">關閉</string><string name="app_name">Storesimple</string><string name="OtherFunction">其他功能</string><string name="CloseStore">閉店</string><string-array name="WriteoffItem">
+	    <item>核銷時間</item>
+	    <item>核銷方式</item>
+	    <item>核銷狀況</item>
+	</string-array><string name="MakePeriod">製作中</string><string name="Phone">手機:</string><string name="ChangeMeal">更換餐點</string></file><file path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\values\styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file><file path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file path="C:\Documents and Settings\Administrator\桌面\Storesimple\res\values-w820dp\dimens.xml" qualifiers="w820dp-v13"><dimen name="activity_horizontal_margin">64dp</dimen></file></source><source path="C:\Documents and Settings\Administrator\桌面\Storesimple\build\generated\res\rs\debug"/><source path="C:\Documents and Settings\Administrator\桌面\Storesimple\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Documents and Settings\Administrator\桌面\Storesimple\build-types\debug\res"/></dataSet><mergedItems/></merger>

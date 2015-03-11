@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Storesimple</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- LoginLayout -->
+    <string name="LoginTitle">登入帳號</string>
+    <string name="RegisterAccount">關於善勝</string>
+    <string name="Login">登入</string>
+    <string name="Forgotpassword">忘記密碼</string>
+    <string name="Account">帳號:</string>
+    <string name="Password">密碼:</string>
+    
+    <!-- Forgotpassword_Layout -->
+    <string name="Email">Email:</string>
+    <string name="SendfinishHint">輸入完成後會寄新密碼至您的手機</string>
+    <string name="Determine">確定</string>
+    
+    <!-- Dayorder_Layout -->
+    <string name="Dayorder">當日訂單</string>
+    <string name="NewTitle">當日訂單-新訂單</string>
+    <string name="MakePeriodTitle">當日訂單-製作中</string>
+    <string name="FinishTitle">當日訂單-已完成</string>
+    <string name="New">新訂單</string>
+    <string name="MakePeriod">製作中</string>
+    <string name="Finish">已完成</string>
+  
+    <!-- Order_Layout -->
+    <string-array name="orderItem">
+        <item>帳號</item>
+        <item>取餐時間</item>
+        <item>取餐方式</item>
+    </string-array>
+    
+    <!-- ReserveOrder_Layout -->
+    <string name="ReserveOrder">預定訂單</string>
+   
+    
+    <!-- DetailContentTitle_Layout -->
+    <string name="Back">返回</string>
+    
+    <!-- FinishOrder_Layout -->
+    <string name="FinishOrder">已出貨訂單</string>
+	<string-array name="FinishOrderItem">
+	    <item>帳號</item>
+	    <item>結帳金額</item>
+	    <item>結帳方式</item>
+	</string-array>
+	
+	<!-- OrderContent_Layout -->
+	<string-array name="MoneyDataTitle">
+	    <item>小計</item>
+	    <item>服務費</item>
+	    <item>外送費</item>
+	    <item>總計金額</item>
+	</string-array>
+	<string name="Mealname">餐點名稱</string>
+	<string name="Quantity">數量</string>
+	<string name="remark">特殊備註</string>
+	<string name="Money">金額</string>
+	<string name="Note">注意</string>
+	<string name="Total">總金額</string>
+	
+	<!-- FinishOrderContent_Layout -->
+	<string name="Paytype">付款方式</string>
+	<string-array name="WriteoffItem">
+	    <item>核銷時間</item>
+	    <item>核銷方式</item>
+	    <item>核銷狀況</item>
+	</string-array>
+	
+	<!-- QRcode_Layout -->
+	<string name="QRcodeTitle">QR Code 掃描</string>
+	<string name="Close">關閉</string>
+	
+	<!-- Bottom_Layout -->
+	<string name="Receiveorder">接收訂單</string>
+	<string name="Makefinish">製作完成</string>
+	<string name="Writeoff">核銷</string>
+	
+	<!-- MealClickMenu_Layout -->
+	<string name="ChangeMeal">更換餐點</string>
+	<string name="Mealnotenough">餐點不足</string>
+	
+	<!-- Menu_Layout -->
+	<string-array name="MenuFunctionTitle">
+	    <item>關閉店家功能</item>
+	    <item>當日訂單</item>
+	    <item>預訂訂單</item>
+	    <item>已出貨訂單</item>
+	    <item>QRcode</item>
+	    <item>店家定位</item>
+	    <item>登出</item>
+	</string-array>
+	
+	<string-array name="Foodname">
+	    <item>酸辣麵</item>
+	    <item>牛肉麵</item>
+	    <item>貢丸湯</item>
+	    <item>蝦仁炒飯</item>
+	    <item>牛肉炒飯</item>
+	    <item>義大利麵</item>
+	    <item>滷肉飯</item>
+	    <item>大滷麵</item>
+	    <item>牛肉燴飯</item>
+	    <item>豬肉炒飯</item>
+	</string-array>
+	
+	<!-- 提示文字 -->
+	<string name="Inputnotfinish">尚未輸入完畢</string>
+	<string name="Delivery">外送</string>
+	<string name="Taketheshop">店內取</string>
+	<string name="Internaluse">內用</string>
+</resources>
